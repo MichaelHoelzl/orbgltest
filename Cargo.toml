@@ -1,0 +1,15 @@
+[package]
+name = "orbgltest"
+version = "0.1.0"
+authors = ["Michael Hölzl <>"]
+edition = "2018"
+
+[dependencies]
+orbclient = "0.3.18"
+orbgl = { git = "https://gitlab.redox-os.org/redox-os/orbgl.git"}
+svgdom = "0.15.0"
+nalgebra = "0.16.12"
+
+[[bin]]
+name = "orbgltest"
+path = "src/main.rs"
