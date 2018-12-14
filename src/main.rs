@@ -1,8 +1,8 @@
 #![allow(dead_code)]
 extern crate orbclient;
 extern crate orbgl;
-extern crate nalgebra as na;
-use na::{Vector3, Rotation3};
+extern crate nalgebra;
+use nalgebra::{Vector3, Rotation3};
 
 
 use orbclient::{Color, Window, Renderer, EventOption};
